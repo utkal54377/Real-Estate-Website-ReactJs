@@ -1,0 +1,57 @@
+
+/* Styling for the wrapper */
+.h-wrapper {
+    background-color: black; /* Light gray background #f8f9fa */
+    padding: 20px;
+}
+
+/* Styling for the container */
+.h-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling for the logo */
+.h-container h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: bisque; /* Dark gray color #333 */
+    margin: 0;
+}
+
+/* Styling for the menu */
+.h-menu a {
+    text-decoration: none;
+    color: white; /* Dark gray color #333 */
+    margin-right: 20px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.h-menu a:hover {
+    color: #ff6600; /* Orange color on hover */
+}
+
+/* Styling for the button */
+.h-menu button {
+    background-color: #ff6600; /* Orange button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.h-menu button:hover {
+    background-color: #e55e00; /* Darker orange on hover */
+}
+
+/* Flexcenter class for centering menu items */
+.flexcenter {
+    display: flex;
+    align-items: center;
+}
